@@ -1,0 +1,552 @@
+From: WizMime<support@wiz.cn>
+Subject: =?gb2312?B?MDcuSGFuZGxlcs2o0MUgLSDUtMLrt9bO9rrNytbQtEhhbmRsZXK/8rzc?=
+Date: Date: Sat, 16 Sep 2017 22:37:11 +0800
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="multipart/alternative";
+	boundary="----=_Next_Part_0062654013.467"
+
+This is a multi-part message in MIME format.
+
+------=_Next_Part_0062654013.467
+Content-Type: multipart/alternative;
+	boundary="----=_Next_Part_0020884671.334"
+
+
+------=_Next_Part_0020884671.334
+Content-Type: text/plain;
+	charset="gb2312"
+Content-Transfer-Encoding: quoted-printable
+
+This is a multi-part message in MIME format.
+
+------=_Next_Part_0020884671.334
+Content-Type: text/html;
+	charset="gb2312"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML><html><head>=0D=0A<meta http-equiv=3D"Content-Type=
+" content=3D"text/html; charset=3Dgb2312">=0A=0A=0A<title>07.Hand=
+ler=CD=A8=D0=C5 - =D4=B4=C2=EB=B7=D6=CE=F6=BA=CD=CA=D6=D0=B4Handl=
+er=BF=F2=BC=DC</title>=0A    <!--mark |wiz_custom_css| for wizedi=
+tor replace it-->=0A<style id=3D"wiz_custom_css">html, body {   =20=
+        font-size: 15px;        }        body {            font-f=
+amily: Helvetica, 'Hiragino Sans GB', '=CE=A2=C8=ED=D1=C5=BA=DA',=
+ 'Microsoft YaHei UI', SimSun, SimHei, arial, sans-serif;       =20=
+    line-height: 1.6;            margin: 0;            padding: 2=
+0px 15px;            padding: 1.33rem 1rem;        }        h1, h=
+2, h3, h4, h5, h6 {            margin: 20px 0 10px;            ma=
+rgin: 1.33rem 0 0.667rem;            padding: 0;            font-=
+weight: bold;        }        h1 {            font-size: 21px;  =20=
+         font-size: 1.4rem;        }        h2 {            font-=
+size: 20px;            font-size: 1.33rem;        }        h3 { =20=
+          font-size: 18px;            font-size: 1.2rem;        }=
+        h4 {            font-size: 17px;            font-size: 1.=
+13rem;        }        h5 {            font-size: 15px;         =20=
+  font-size: 1rem;        }        h6 {            font-size: 15p=
+x;            font-size: 1rem;            color: #777777;       =20=
+    margin: 1rem 0;        }        div, p, ul, ol, dl, li {    =20=
+       margin: 0;        }        blockquote, table, pre, code {=20=
+           margin: 8px 0;        }        ul, ol {            pad=
+ding-left: 32px;            padding-left: 2.13rem;        }     =20=
+  blockquote {            padding: 0 12px;            padding: 0=20=
+0.8rem;        }        blockquote > :first-child {            ma=
+rgin-top: 0;        }        blockquote > :last-child {         =20=
+  margin-bottom: 0;        }        img {            border: 0; =20=
+          max-width: 100%;            height: auto !important;  =20=
+         margin: 2px 0;        }        table {            border=
+-collapse: collapse;            border: 1px solid #bbbbbb;      =20=
+ }        td, th {            padding: 4px 8px;            border=
+-collapse: collapse;            border: 1px solid #bbbbbb;			   =20=
+    }        @media only screen and (-webkit-max-device-width: 10=
+24px), only screen and (-o-max-device-width: 1024px), only screen=
+ and (max-device-width: 1024px), only screen and (-webkit-min-dev=
+ice-pixel-ratio: 3), only screen and (-o-min-device-pixel-ratio:=20=
+3), only screen and (min-device-pixel-ratio: 3) {            html=
+, body {                font-size: 17px;            }           =20=
+body {                line-height: 1.7;                padding: 0=
+.75rem 0.9375rem;                color: #353c47;            }   =20=
+        h1 {                font-size: 2.125rem;            }   =20=
+        h2 {                font-size: 1.875rem;            }   =20=
+        h3 {                font-size: 1.625rem;            }   =20=
+        h4 {                font-size: 1.375rem;            }   =20=
+        h5 {                font-size: 1.125rem;            }   =20=
+        h6 {                color: inherit;            }        =20=
+   ul, ol {                padding-left: 2.5rem;            }   =20=
+        blockquote {                padding: 0 0.9375rem;       =20=
+    }        }</style><link type=3D"text/css" rel=3D"stylesheet"=20=
+id=3D"wiz_code_highlight_link" href=3D"wiz_code_highlight_39.css"=
+></head>=0A=0A<body spellcheck=3D"false" ><div>1. =C3=E6=CA=D4=CC=
+=E2=BD=B2=BD=E2</div><div><br></div><div>2. MessageQueue &nbsp;=CF=
+=FB=CF=A2=B6=D3=C1=D0</div><div>Handler.sendMessage -&gt;&nbsp;<s=
+pan style=3D"line-height: 1.6;">sendMessageDelyed -&gt; MessageQu=
+eue.enqueueMessage</span></div><div><br></div><div><div><pre clas=
+s=3D"prettyprint linenums prettyprinted"><ol class=3D"linenums"><=
+li class=3D"L0"><code class=3D"language-c"><span class=3D"typ"> =20=
+         &nbsp;// </span></code></li><li class=3D"L0"><code class=
+=3D"language-c"><span class=3D"typ">            Message</span><sp=
+an class=3D"pln"> p </span><span class=3D"pun">=3D</span><span cl=
+ass=3D"pln"> mMessages</span><span class=3D"pun">;</span></code><=
+/li><li class=3D"L1"><code class=3D"language-c"><span class=3D"pl=
+n">            boolean needWake</span><span class=3D"pun">;</span=
+></code></li><li class=3D"L2"><code class=3D"language-c"><span cl=
+ass=3D"pln">            </span><span class=3D"kwd">if</span><span=
+ class=3D"pln"> </span><span class=3D"pun">(</span><span class=3D=
+"pln">p </span><span class=3D"pun">=3D=3D</span><span class=3D"pl=
+n"> null </span><span class=3D"pun">||</span><span class=3D"pln">=
+ when </span><span class=3D"pun">=3D=3D</span><span class=3D"pln"=
+> </span><span class=3D"lit">0</span><span class=3D"pln"> </span>=
+<span class=3D"pun">||</span><span class=3D"pln"> when </span><sp=
+an class=3D"pun">&lt;</span><span class=3D"pln"> p</span><span cl=
+ass=3D"pun">.</span><span class=3D"pln">when</span><span class=3D=
+"pun">)</span><span class=3D"pln"> </span><span class=3D"pun">{</=
+span></code></li><li class=3D"L3"><code class=3D"language-c"><spa=
+n class=3D"pln">                </span><span class=3D"com">// New=
+ head, wake up the event queue if blocked.</span></code></li><li=20=
+class=3D"L4"><code class=3D"language-c"><span class=3D"pln">    =20=
+           msg</span><span class=3D"pun">.</span><span class=3D"p=
+ln">next </span><span class=3D"pun">=3D</span><span class=3D"pln"=
+> p</span><span class=3D"pun">;</span></code></li><li class=3D"L5=
+"><code class=3D"language-c"><span class=3D"pln">               =20=
+mMessages </span><span class=3D"pun">=3D</span><span class=3D"pln=
+"> msg</span><span class=3D"pun">;</span></code></li><li class=3D=
+"L6"><code class=3D"language-c"><span class=3D"pln">            =20=
+   needWake </span><span class=3D"pun">=3D</span><span class=3D"p=
+ln"> mBlocked</span><span class=3D"pun">;</span></code></li><li c=
+lass=3D"L7"><code class=3D"language-c"><span class=3D"pln">     =20=
+      </span><span class=3D"pun">}</span><span class=3D"pln"> </s=
+pan><span class=3D"kwd">else</span><span class=3D"pln"> </span><s=
+pan class=3D"pun">{</span></code></li><li class=3D"L8"><code clas=
+s=3D"language-c"><span class=3D"pln">                </span><span=
+ class=3D"com">// Inserted within the middle of the queue.  Usual=
+ly we don't have to wake</span></code></li><li class=3D"L9"><code=
+ class=3D"language-c"><span class=3D"pln">                </span>=
+<span class=3D"com">// up the event queue unless there is a barri=
+er at the head of the queue</span></code></li><li class=3D"L0"><c=
+ode class=3D"language-c"><span class=3D"pln">                </sp=
+an><span class=3D"com">// and the message is the earliest asynchr=
+onous message in the queue.</span></code></li><li class=3D"L1"><c=
+ode class=3D"language-c"><span class=3D"pln">                need=
+Wake </span><span class=3D"pun">=3D</span><span class=3D"pln"> mB=
+locked </span><span class=3D"pun">&amp;&amp;</span><span class=3D=
+"pln"> p</span><span class=3D"pun">.</span><span class=3D"pln">ta=
+rget </span><span class=3D"pun">=3D=3D</span><span class=3D"pln">=
+ null </span><span class=3D"pun">&amp;&amp;</span><span class=3D"=
+pln"> msg</span><span class=3D"pun">.</span><span class=3D"pln">i=
+sAsynchronous</span><span class=3D"pun">();</span></code></li><li=
+ class=3D"L2"><code class=3D"language-c"><span class=3D"pln">   =20=
+            </span><span class=3D"typ">Message</span><span class=3D=
+"pln"> prev</span><span class=3D"pun">;</span></code></li><li cla=
+ss=3D"L3"><code class=3D"language-c"><span class=3D"pln">       =20=
+        </span><span class=3D"kwd">for</span><span class=3D"pln">=
+ </span><span class=3D"pun">(;;)</span><span class=3D"pln"> </spa=
+n><span class=3D"pun">{</span></code></li><li class=3D"L4"><code=20=
+class=3D"language-c"><span class=3D"pln">                    prev=
+ </span><span class=3D"pun">=3D</span><span class=3D"pln"> p</spa=
+n><span class=3D"pun">;</span></code></li><li class=3D"L5"><code=20=
+class=3D"language-c"><span class=3D"pln">                    p </=
+span><span class=3D"pun">=3D</span><span class=3D"pln"> p</span><=
+span class=3D"pun">.</span><span class=3D"pln">next</span><span c=
+lass=3D"pun">;</span></code></li><li class=3D"L6"><code class=3D"=
+language-c"><span class=3D"pln">                    </span><span=20=
+class=3D"kwd">if</span><span class=3D"pln"> </span><span class=3D=
+"pun">(</span><span class=3D"pln">p </span><span class=3D"pun">=3D=
+=3D</span><span class=3D"pln"> null </span><span class=3D"pun">||=
+</span><span class=3D"pln"> when </span><span class=3D"pun">&lt;<=
+/span><span class=3D"pln"> p</span><span class=3D"pun">.</span><s=
+pan class=3D"pln">when</span><span class=3D"pun">)</span><span cl=
+ass=3D"pln"> </span><span class=3D"pun">{</span></code></li><li c=
+lass=3D"L7"><code class=3D"language-c"><span class=3D"pln">     =20=
+                  </span><span class=3D"kwd">break</span><span cl=
+ass=3D"pun">;</span></code></li><li class=3D"L8"><code class=3D"l=
+anguage-c"><span class=3D"pln">                    </span><span c=
+lass=3D"pun">}</span></code></li><li class=3D"L9"><code class=3D"=
+language-c"><span class=3D"pln">                    </span><span=20=
+class=3D"kwd">if</span><span class=3D"pln"> </span><span class=3D=
+"pun">(</span><span class=3D"pln">needWake </span><span class=3D"=
+pun">&amp;&amp;</span><span class=3D"pln"> p</span><span class=3D=
+"pun">.</span><span class=3D"pln">isAsynchronous</span><span clas=
+s=3D"pun">())</span><span class=3D"pln"> </span><span class=3D"pu=
+n">{</span></code></li><li class=3D"L0"><code class=3D"language-c=
+"><span class=3D"pln">                        needWake </span><sp=
+an class=3D"pun">=3D</span><span class=3D"pln"> </span><span clas=
+s=3D"kwd">false</span><span class=3D"pun">;</span></code></li><li=
+ class=3D"L1"><code class=3D"language-c"><span class=3D"pln">   =20=
+                </span><span class=3D"pun">}</span></code></li><l=
+i class=3D"L2"><code class=3D"language-c"><span class=3D"pln">  =20=
+             </span><span class=3D"pun">}</span></code></li><li c=
+lass=3D"L3"><code class=3D"language-c"><span class=3D"pln">     =20=
+          msg</span><span class=3D"pun">.</span><span class=3D"pl=
+n">next </span><span class=3D"pun">=3D</span><span class=3D"pln">=
+ p</span><span class=3D"pun">;</span><span class=3D"pln"> </span>=
+<span class=3D"com">// invariant: p =3D=3D prev.next</span></code=
+></li><li class=3D"L4"><code class=3D"language-c"><span class=3D"=
+pln">                prev</span><span class=3D"pun">.</span><span=
+ class=3D"pln">next </span><span class=3D"pun">=3D</span><span cl=
+ass=3D"pln"> msg</span><span class=3D"pun">;</span></code></li><l=
+i class=3D"L5"><code class=3D"language-c"><span class=3D"pln">  =20=
+         </span><span class=3D"pun">}</span></code></li></ol></pr=
+e></div><div>=B5=BD=C4=BF=C7=B0=CE=AA=D6=B9=CE=D2=C3=C7=C3=BB=D3=D0=
+=BF=B4=B5=BD handler =C8=A5=B5=F7=D3=C3 handleMessage() =B7=BD=B7=
+=A8 =A3=AC=C4=BF=C7=B0=D2=B2=D6=BB=CA=C7=BF=B4=B5=BD=C1=CB Messag=
+eQueue , =B0=D1=CF=FB=CF=A2=B8=F8=C1=CB mMessage&nbsp;</div></div=
+><div><br></div><div>=D7=DC=BD=E1=A3=BAhandler.sendMessage =C6=E4=
+=CA=B5=D6=BB=CA=C7=B0=D1=CE=D2=C3=C7=B5=C4 Message =BC=D3=C8=EB=C1=
+=CB=CF=FB=CF=A2=B6=D3=C1=D0=A3=AC=B6=D3=C1=D0=B2=C9=D3=C3=B5=C4=CA=
+=C7=C1=B4=B1=ED=B5=C4=B7=BD=CA=BD=A3=AC=B0=B4=D5=D5 when =D2=B2=BE=
+=CD=CA=C7=CA=B1=BC=E4=C5=C5=D0=F2=A3=AC=C8=BB=BA=F3=D4=D9=D2=B2=C3=
+=BB=B8=C9=C6=E4=CB=FB=A1=A3</div><div><br></div><div>=CE=AA=CA=B2=
+=C3=B4&nbsp;<span style=3D"line-height: 1.6;">MessageQueue</span>=
+<span style=3D"line-height: 1.6;">&nbsp;=CF=FB=CF=A2=B6=D3=C1=D0=D2=
+=AA=B2=C9=D3=C3=C1=B4=B1=ED=B5=C4=B7=BD=CA=BD=C8=A5=B4=E6=B4=A2=CE=
+=D2=C3=C7 Message &nbsp;?&nbsp;</span></div><div><a href=3D"http:=
+//www.jianshu.com/p/097f4486f3e6">http://www.jianshu.com/p/097f44=
+86f3e6</a></div><div>=C1=B4=B1=ED=BA=CD=CA=FD=D7=E9=B5=C4=C7=F8=B1=
+=F0=A3=BF=C1=B4=B1=ED=CA=C7=D4=F6=BC=D3=C9=BE=B3=FD=BF=EC=A3=AC=CA=
+=FD=D7=E9=CA=C7=B2=E9=D1=AF=BF=EC</div><div><br></div><div><br></=
+div><div>3. Loop =CF=FB=CF=A2=D1=AD=BB=B7</div><div>=D7=D3=CF=DF=B3=
+=CC=D6=D0=CA=B9=D3=C3 Handler =B1=D8=D0=EB=CF=C8=B5=F7=D3=C3&nbsp=
+;<span style=3D"font-family: =CB=CE=CC=E5; font-size: 11pt; line-=
+height: 1.6; background-color: rgb(255, 255, 255);">Looper.</span=
+><span style=3D"font-family: =CB=CE=CC=E5; font-size: 11pt; line-=
+height: 1.6; font-style: italic;">prepare</span><span style=3D"fo=
+nt-family: =CB=CE=CC=E5; font-size: 11pt; line-height: 1.6; backg=
+round-color: rgb(255, 255, 255);">(); =B2=BB=C8=BB=BB=E1=B1=A8=B4=
+=ED=A3=AC=CE=D2=C3=C7=D4=DA=D6=F7=CF=DF=B3=CC=D6=D0=B2=A2=C3=BB=D3=
+=D0=B5=F7=D3=C3=B9=FD&nbsp;</span><span style=3D"font-family: =CB=
+=CE=CC=E5; font-size: 11pt; line-height: 1.6; background-color: r=
+gb(255, 255, 255);">Looper.</span><span style=3D"font-family: =CB=
+=CE=CC=E5; font-size: 11pt; line-height: 1.6; font-style: italic;=
+">prepare</span><span style=3D"font-family: =CB=CE=CC=E5; font-si=
+ze: 11pt; line-height: 1.6; background-color: rgb(255, 255, 255);=
+">()=A3=AC=CE=AA=CA=B2=C3=B4=BE=CD=B2=BB=B1=A8=B4=ED=A3=BF</span>=
+</div><div><span style=3D"font-family: =CB=CE=CC=E5; font-size: 1=
+1pt; line-height: 1.6; background-color: rgb(255, 255, 255);"><br=
+></span></div><div><span style=3D"font-family: =CB=CE=CC=E5; font=
+-size: 11pt; line-height: 1.6; background-color: rgb(255, 255, 25=
+5);">=D2=F2=CE=AA=D4=DA=CE=D2=C3=C7=D3=A6=D3=C3=C6=F4=B6=AF=B5=C4=
+=CA=B1=BA=F2=A3=ACActivityThread =B5=C4=C8=EB=BF=DA=BA=AF=CA=FD m=
+ain() =B7=BD=B7=A8=D6=D0=D2=D1=BE=AD=B0=EF=CE=D2=C3=C7=D0=B4=C1=CB=
+=D5=E2=D0=D0=B4=FA=C2=EB</span></div><div><pre style=3D"font-fami=
+ly: =CB=CE=CC=E5; font-size: 11pt; background-color: rgb(255, 255=
+, 255);">Looper.<span style=3D"font-style:italic;">prepareMainLoo=
+per</span>();// =D7=BC=B1=B8=D1=AD=BB=B7</pre></div><div><pre sty=
+le=3D"font-family: =CB=CE=CC=E5; font-size: 11pt; background-colo=
+r: rgb(255, 255, 255);"><span style=3D"color:#660e7a;font-weight:=
+bold;font-style:italic;">sThreadLocal</span>.set(<span style=3D"c=
+olor:#000080;font-weight:bold;">new </span>Looper(quitAllowed));=20=
+</pre><pre style=3D"font-family: =CB=CE=CC=E5; font-size: 11pt; b=
+ackground-color: rgb(255, 255, 255);"><div><pre class=3D"prettypr=
+int linenums prettyprinted"><ol class=3D"linenums"><li class=3D"L=
+0"><code class=3D"language-c"><span class=3D"typ">        Thread<=
+/span><span class=3D"pln"> t </span><span class=3D"pun">=3D</span=
+><span class=3D"pln"> </span><span class=3D"typ">Thread</span><sp=
+an class=3D"pun">.</span><span class=3D"pln">currentThread</span>=
+<span class=3D"pun">();</span></code></li><li class=3D"L0"><code=20=
+class=3D"language-c"><span class=3D"pun">        // =B4=D3=CF=DF=B3=
+=CC=D6=D0=BB=F1=C8=A1 </span></code><span style=3D"color: rgb(0,=20=
+128, 128);">ThreadLocalMap =A3=AC=D2=BB=B8=F6=CF=DF=B3=CC=D2=BB=B8=
+=F6 </span><span style=3D"color: rgb(0, 128, 128);">ThreadLocalMa=
+p</span></li><li class=3D"L1"><code class=3D"language-c"><span cl=
+ass=3D"pln">        </span><span class=3D"typ">ThreadLocalMap</sp=
+an><span class=3D"pln"> </span><span class=3D"typ">map</span><spa=
+n class=3D"pln"> </span><span class=3D"pun">=3D</span><span class=
+=3D"pln"> getMap</span><span class=3D"pun">(</span><span class=3D=
+"pln">t</span><span class=3D"pun">);</span></code></li><li class=3D=
+"L2"><code class=3D"language-c"><span class=3D"pln">        </spa=
+n><span class=3D"kwd">if</span><span class=3D"pln"> </span><span=20=
+class=3D"pun">(</span><span class=3D"typ">map</span><span class=3D=
+"pln"> </span><span class=3D"pun">!=3D</span><span class=3D"pln">=
+ null</span><span class=3D"pun">)</span></code></li><li class=3D"=
+L3"><code class=3D"language-c"><span class=3D"pln">            </=
+span><span class=3D"typ">map</span><span class=3D"pun">.</span><s=
+pan class=3D"typ">set</span><span class=3D"pun">(</span><span cla=
+ss=3D"kwd">this</span><span class=3D"pun">,</span><span class=3D"=
+pln"> value</span><span class=3D"pun">);</span></code></li></ol><=
+/pre></div><div>=D7=DC=BD=E1=A3=BA=C6=E4=CA=B5=BE=CD=CA=C7=B4=B4=BD=
+=A8=D2=BB=B8=F6 Looper =A3=AC=B2=A2=C7=D2=B1=A3=D6=A4=D2=BB=B8=F6=
+ Thread =CF=DF=B3=CC=D6=D0=A3=AC=D6=BB=D3=D0=D2=BB=B8=F6 Looper =B6=
+=D4=CF=F3</div></pre><pre style=3D"font-family: =CB=CE=CC=E5; fon=
+t-size: 11pt; background-color: rgb(255, 255, 255);"><br></pre></=
+div><div>Looper.loop(); //=D1=AD=BB=B7&nbsp;</div><div><span styl=
+e=3D"font-family: =CB=CE=CC=E5; font-size: 11pt; line-height: 1.6=
+; background-color: rgb(255, 255, 255);"><br></span></div><div><s=
+pan style=3D"font-family: =CB=CE=CC=E5; font-size: 11pt; line-hei=
+ght: 1.6; background-color: rgb(255, 255, 255);"><div><pre class=3D=
+"prettyprint linenums prettyprinted"><ol class=3D"linenums"><li c=
+lass=3D"L0"><code class=3D"language-c"><span class=3D"com">     /=
+**</span></code></li><li class=3D"L1"><code class=3D"language-c">=
+<span class=3D"com">     * Run the message queue in this thread.=20=
+Be sure to call</span></code></li><li class=3D"L2"><code class=3D=
+"language-c"><span class=3D"com">     * {@link #quit()} to end th=
+e loop.</span></code></li><li class=3D"L3"><code class=3D"languag=
+e-c"><span class=3D"com">     */</span></code></li><li class=3D"L=
+4"><code class=3D"language-c"><span class=3D"pln">    </span><spa=
+n class=3D"kwd">public</span><span class=3D"pln"> </span><span cl=
+ass=3D"kwd">static</span><span class=3D"pln"> </span><span class=3D=
+"kwd">void</span><span class=3D"pln"> loop</span><span class=3D"p=
+un">()</span><span class=3D"pln"> </span><span class=3D"pun">{</s=
+pan></code></li><li class=3D"L4"><code class=3D"language-c"><span=
+ class=3D"pun">        // =BB=F1=C8=A1=CF=DF=B3=CC=B5=C4 </span><=
+/code><span style=3D"color: rgb(0, 128, 128);">Looper =B6=D4=CF=F3=
+</span></li><li class=3D"L5"><code class=3D"language-c"><span cla=
+ss=3D"pln">        final </span><span class=3D"typ">Looper</span>=
+<span class=3D"pln"> me </span><span class=3D"pun">=3D</span><spa=
+n class=3D"pln"> myLooper</span><span class=3D"pun">();</span></c=
+ode></li><li class=3D"L6"><code class=3D"language-c"><span class=3D=
+"pln">        </span><span class=3D"kwd">if</span><span class=3D"=
+pln"> </span><span class=3D"pun">(</span><span class=3D"pln">me <=
+/span><span class=3D"pun">=3D=3D</span><span class=3D"pln"> null<=
+/span><span class=3D"pun">)</span><span class=3D"pln"> </span><sp=
+an class=3D"pun">{</span></code></li><li class=3D"L7"><code class=
+=3D"language-c"><span class=3D"pln">            </span><span clas=
+s=3D"kwd">throw</span><span class=3D"pln"> </span><span class=3D"=
+kwd">new</span><span class=3D"pln"> </span><span class=3D"typ">Ru=
+ntimeException</span><span class=3D"pun">(</span><span class=3D"s=
+tr">"No Looper; Looper.prepare() wasn't called on this thread."</=
+span><span class=3D"pun">);</span></code></li><li class=3D"L8"><c=
+ode class=3D"language-c"><span class=3D"pln">        </span><span=
+ class=3D"pun">}</span></code></li><li class=3D"L8"><code class=3D=
+"language-c"><span class=3D"pun">        // =BB=F1=C8=A1=B6=D3=C1=
+=D0</span></code></li><li class=3D"L9"><code class=3D"language-c"=
+><span class=3D"pln">        final </span><span class=3D"typ">Mes=
+sageQueue</span><span class=3D"pln"> </span><span class=3D"typ">q=
+ueue</span><span class=3D"pln"> </span><span class=3D"pun">=3D</s=
+pan><span class=3D"pln"> me</span><span class=3D"pun">.</span><sp=
+an class=3D"pln">mQueue<font color=3D"#93a1a1">=A3=BB</font></spa=
+n></code></li><li class=3D"L5"><code class=3D"language-c"></code>=
+</li><li class=3D"L6"><code class=3D"language-c"><span class=3D"p=
+ln">        </span><span class=3D"kwd">for</span><span class=3D"p=
+ln"> </span><span class=3D"pun">(;;)</span><span class=3D"pln"> <=
+/span><span class=3D"pun">{</span></code></li><li class=3D"L6"><c=
+ode class=3D"language-c"><span class=3D"pun">            // =CB=C0=
+=D1=AD=BB=B7=B2=BB=B6=CF=B5=C4=BB=F1=C8=A1 =CF=FB=CF=A2=B6=D3=C1=D0=
+=D6=D0=B5=C4=CF=FB=CF=A2</span></code></li><li class=3D"L7"><code=
+ class=3D"language-c"><span class=3D"pln">            </span><spa=
+n class=3D"typ">Message</span><span class=3D"pln"> msg </span><sp=
+an class=3D"pun">=3D</span><span class=3D"pln"> </span><span clas=
+s=3D"typ">queue</span><span class=3D"pun">.</span><span class=3D"=
+pln">next</span><span class=3D"pun">();</span><span class=3D"pln"=
+> </span><span class=3D"com">// might block</span></code></li><li=
+ class=3D"L8"><code class=3D"language-c"><span class=3D"pln">   =20=
+        </span><span class=3D"kwd">if</span><span class=3D"pln">=20=
+</span><span class=3D"pun">(</span><span class=3D"pln">msg </span=
+><span class=3D"pun">=3D=3D</span><span class=3D"pln"> null</span=
+><span class=3D"pun">)</span><span class=3D"pln"> </span><span cl=
+ass=3D"pun">{</span></code></li><li class=3D"L9"><code class=3D"l=
+anguage-c"><span class=3D"pln">                </span><span class=
+=3D"com">// No message indicates that the message queue is quitti=
+ng.</span></code></li><li class=3D"L0"><code class=3D"language-c"=
+><span class=3D"pln">                </span><span class=3D"kwd">r=
+eturn</span><span class=3D"pun">;</span></code></li><li class=3D"=
+L1"><code class=3D"language-c"><span class=3D"pln">            </=
+span><span class=3D"pun">}</span></code></li><li class=3D"L4"><co=
+de class=3D"language-c"><span class=3D"pln">            </span><s=
+pan class=3D"kwd">try</span><span class=3D"pln"> </span><span cla=
+ss=3D"pun">{</span></code></li><li class=3D"L4"><code class=3D"la=
+nguage-c"><span class=3D"pun">                // =CD=A8=B9=FD han=
+dler =C8=A5=D6=B4=D0=D0 Message =D5=E2=B8=F6=CA=B1=BA=F2=BE=CD=B5=
+=F7=D3=C3=C1=CB handleMessage =B7=BD=B7=A8</span></code></li><li=20=
+class=3D"L5"><code class=3D"language-c"><span class=3D"pln">    =20=
+           msg</span><span class=3D"pun">.</span><span class=3D"p=
+ln">target</span><span class=3D"pun">.</span><span class=3D"pln">=
+dispatchMessage</span><span class=3D"pun">(</span><span class=3D"=
+pln">msg</span><span class=3D"pun">);</span></code></li><li class=
+=3D"L6"><code class=3D"language-c"><span class=3D"pln">         =20=
+  </span><span class=3D"pun">}</span><span class=3D"pln"> finally=
+ </span><span class=3D"pun">{</span></code></li><li class=3D"L7">=
+<code class=3D"language-c"><span class=3D"pln">                </=
+span><span class=3D"kwd">if</span><span class=3D"pln"> </span><sp=
+an class=3D"pun">(</span><span class=3D"pln">traceTag </span><spa=
+n class=3D"pun">!=3D</span><span class=3D"pln"> </span><span clas=
+s=3D"lit">0</span><span class=3D"pun">)</span><span class=3D"pln"=
+> </span><span class=3D"pun">{</span></code></li><li class=3D"L8"=
+><code class=3D"language-c"><span class=3D"pln">                =20=
+   </span><span class=3D"typ">Trace</span><span class=3D"pun">.</=
+span><span class=3D"pln">traceEnd</span><span class=3D"pun">(</sp=
+an><span class=3D"pln">traceTag</span><span class=3D"pun">);</spa=
+n></code></li><li class=3D"L9"><code class=3D"language-c"><span c=
+lass=3D"pln">                </span><span class=3D"pun">}</span><=
+/code></li><li class=3D"L0"><code class=3D"language-c"><span clas=
+s=3D"pln">            </span><span class=3D"pun">}</span></code><=
+/li><li class=3D"L0"><code class=3D"language-c"><span class=3D"pu=
+n">            // =BB=D8=CA=D5=CF=FB=CF=A2</span></code></li><li=20=
+class=3D"L0"><span class=3D"pln"><font color=3D"#93a1a1">       =20=
+    </font>msg</span><span class=3D"pun">.</span><span class=3D"p=
+ln">recycleUnchecked</span><span class=3D"pun">();</span></li><li=
+ class=3D"L8"><code class=3D"language-c"><span class=3D"pln">   =20=
+    </span><span class=3D"pun">}</span></code></li><li class=3D"L=
+9"><code class=3D"language-c"><span class=3D"pln">    </span><spa=
+n class=3D"pun">}</span></code></li></ol></pre></div><div><br></d=
+iv></span></div><div>4. =CF=FB=CF=A2=BB=D8=CA=D5&nbsp;</div><div>=
+<br></div><div>=BD=BB=C1=F7=B5=C4=C8=BA 546270670&nbsp;</div><div=
+>=CA=D3=C6=B5 Grace 2746186102&nbsp;</div><div><br></div><div><br=
+></div><div><br></div><div><br></div><div><br></div><div><br></di=
+v><div><br></div><div><br></div><div><br></div><div><br></div><di=
+v><br></div></body></html>
+
+------=_Next_Part_0020884671.334--
+
+------=_Next_Part_0062654013.467
+Content-Type: text/css;
+	name="wiz_code_highlight_39.css"
+Content-Transfer-Encoding: base64
+Content-ID: <wiz_code_highlight_39.css>
+Content-Location: wiz_code_highlight_39.css
+
+//4NAAoADQAKAA0ACgAuAGgAbABqAHMAIAB7AA0ACgAgACAAZABpAHMAcABsAGEAeQA6ACAAYgBs
+AG8AYwBrADsAIABwAGEAZABkAGkAbgBnADoAIAAwAC4ANQBlAG0AOwANAAoAIAAgAGIAYQBjAGsA
+ZwByAG8AdQBuAGQAOgAgACMARgAwAEYAMABGADAAOwANAAoAfQANAAoADQAKAC4AaABsAGoAcwAs
+AA0ACgAuAGgAbABqAHMALQBzAHUAYgBzAHQALAANAAoALgBoAGwAagBzAC0AdABhAGcAIAAuAGgA
+bABqAHMALQB0AGkAdABsAGUALAANAAoALgBsAGkAcwBwACAALgBoAGwAagBzAC0AdABpAHQAbABl
+ACwADQAKAC4AYwBsAG8AagB1AHIAZQAgAC4AaABsAGoAcwAtAGIAdQBpAGwAdABfAGkAbgAsAA0A
+CgAuAG4AZwBpAG4AeAAgAC4AaABsAGoAcwAtAHQAaQB0AGwAZQAgAHsADQAKACAAIABjAG8AbABv
+AHIAOgAgAGIAbABhAGMAawA7AA0ACgB9AA0ACgANAAoALgBoAGwAagBzAC0AcwB0AHIAaQBuAGcA
+LAANAAoALgBoAGwAagBzAC0AdABpAHQAbABlACwADQAKAC4AaABsAGoAcwAtAGMAbwBuAHMAdABh
+AG4AdAAsAA0ACgAuAGgAbABqAHMALQBwAGEAcgBlAG4AdAAsAA0ACgAuAGgAbABqAHMALQB0AGEA
+ZwAgAC4AaABsAGoAcwAtAHYAYQBsAHUAZQAsAA0ACgAuAGgAbABqAHMALQByAHUAbABlAHMAIAAu
+AGgAbABqAHMALQB2AGEAbAB1AGUALAANAAoALgBoAGwAagBzAC0AcgB1AGwAZQBzACAALgBoAGwA
+agBzAC0AdgBhAGwAdQBlACAALgBoAGwAagBzAC0AbgB1AG0AYgBlAHIALAANAAoALgBoAGwAagBz
+AC0AcAByAGUAcAByAG8AYwBlAHMAcwBvAHIALAANAAoALgBoAGwAagBzAC0AcAByAGEAZwBtAGEA
+LAANAAoALgBoAGEAbQBsACAALgBoAGwAagBzAC0AcwB5AG0AYgBvAGwALAANAAoALgByAHUAYgB5
+ACAALgBoAGwAagBzAC0AcwB5AG0AYgBvAGwALAANAAoALgByAHUAYgB5ACAALgBoAGwAagBzAC0A
+cwB5AG0AYgBvAGwAIAAuAGgAbABqAHMALQBzAHQAcgBpAG4AZwAsAA0ACgAuAGgAbABqAHMALQBh
+AGcAZwByAGUAZwBhAHQAZQAsAA0ACgAuAGgAbABqAHMALQB0AGUAbQBwAGwAYQB0AGUAXwB0AGEA
+ZwAsAA0ACgAuAGQAagBhAG4AZwBvACAALgBoAGwAagBzAC0AdgBhAHIAaQBhAGIAbABlACwADQAK
+AC4AcwBtAGEAbABsAHQAYQBsAGsAIAAuAGgAbABqAHMALQBjAGwAYQBzAHMALAANAAoALgBoAGwA
+agBzAC0AYQBkAGQAaQB0AGkAbwBuACwADQAKAC4AaABsAGoAcwAtAGYAbABvAHcALAANAAoALgBo
+AGwAagBzAC0AcwB0AHIAZQBhAG0ALAANAAoALgBiAGEAcwBoACAALgBoAGwAagBzAC0AdgBhAHIA
+aQBhAGIAbABlACwADQAKAC4AYQBwAGEAYwBoAGUAIAAuAGgAbABqAHMALQB0AGEAZwAsAA0ACgAu
+AGEAcABhAGMAaABlACAALgBoAGwAagBzAC0AYwBiAHIAYQBjAGsAZQB0ACwADQAKAC4AdABlAHgA
+IAAuAGgAbABqAHMALQBjAG8AbQBtAGEAbgBkACwADQAKAC4AdABlAHgAIAAuAGgAbABqAHMALQBz
+AHAAZQBjAGkAYQBsACwADQAKAC4AZQByAGwAYQBuAGcAXwByAGUAcABsACAALgBoAGwAagBzAC0A
+ZgB1AG4AYwB0AGkAbwBuAF8AbwByAF8AYQB0AG8AbQAsAA0ACgAuAGEAcwBjAGkAaQBkAG8AYwAg
+AC4AaABsAGoAcwAtAGgAZQBhAGQAZQByACwADQAKAC4AbQBhAHIAawBkAG8AdwBuACAALgBoAGwA
+agBzAC0AaABlAGEAZABlAHIALAANAAoALgBjAG8AZgBmAGUAZQBzAGMAcgBpAHAAdAAgAC4AaABs
+AGoAcwAtAGEAdAB0AHIAaQBiAHUAdABlACAAewANAAoAIAAgAGMAbwBsAG8AcgA6ACAAIwA4ADAA
+MAA7AA0ACgB9AA0ACgANAAoALgBzAG0AYQByAHQAcQB1AG8AdABlACwADQAKAC4AaABsAGoAcwAt
+AGMAbwBtAG0AZQBuAHQALAANAAoALgBoAGwAagBzAC0AYQBuAG4AbwB0AGEAdABpAG8AbgAsAA0A
+CgAuAGgAbABqAHMALQB0AGUAbQBwAGwAYQB0AGUAXwBjAG8AbQBtAGUAbgB0ACwADQAKAC4AZABp
+AGYAZgAgAC4AaABsAGoAcwAtAGgAZQBhAGQAZQByACwADQAKAC4AaABsAGoAcwAtAGMAaAB1AG4A
+awAsAA0ACgAuAGEAcwBjAGkAaQBkAG8AYwAgAC4AaABsAGoAcwAtAGIAbABvAGMAawBxAHUAbwB0
+AGUALAANAAoALgBtAGEAcgBrAGQAbwB3AG4AIAAuAGgAbABqAHMALQBiAGwAbwBjAGsAcQB1AG8A
+dABlACAAewANAAoAIAAgAGMAbwBsAG8AcgA6ACAAIwA4ADgAOAA7AA0ACgB9AA0ACgANAAoALgBo
+AGwAagBzAC0AbgB1AG0AYgBlAHIALAANAAoALgBoAGwAagBzAC0AZABhAHQAZQAsAA0ACgAuAGgA
+bABqAHMALQByAGUAZwBlAHgAcAAsAA0ACgAuAGgAbABqAHMALQBsAGkAdABlAHIAYQBsACwADQAK
+AC4AaABsAGoAcwAtAGgAZQB4AGMAbwBsAG8AcgAsAA0ACgAuAHMAbQBhAGwAbAB0AGEAbABrACAA
+LgBoAGwAagBzAC0AcwB5AG0AYgBvAGwALAANAAoALgBzAG0AYQBsAGwAdABhAGwAawAgAC4AaABs
+AGoAcwAtAGMAaABhAHIALAANAAoALgBnAG8AIAAuAGgAbABqAHMALQBjAG8AbgBzAHQAYQBuAHQA
+LAANAAoALgBoAGwAagBzAC0AYwBoAGEAbgBnAGUALAANAAoALgBsAGEAcwBzAG8AIAAuAGgAbABq
+AHMALQB2AGEAcgBpAGEAYgBsAGUALAANAAoALgBtAGEAawBlAGYAaQBsAGUAIAAuAGgAbABqAHMA
+LQB2AGEAcgBpAGEAYgBsAGUALAANAAoALgBhAHMAYwBpAGkAZABvAGMAIAAuAGgAbABqAHMALQBi
+AHUAbABsAGUAdAAsAA0ACgAuAG0AYQByAGsAZABvAHcAbgAgAC4AaABsAGoAcwAtAGIAdQBsAGwA
+ZQB0ACwADQAKAC4AYQBzAGMAaQBpAGQAbwBjACAALgBoAGwAagBzAC0AbABpAG4AawBfAHUAcgBs
+ACwADQAKAC4AbQBhAHIAawBkAG8AdwBuACAALgBoAGwAagBzAC0AbABpAG4AawBfAHUAcgBsACAA
+ewANAAoAIAAgAGMAbwBsAG8AcgA6ACAAIwAwADgAMAA7AA0ACgB9AA0ACgANAAoALgBoAGwAagBz
+AC0AbABhAGIAZQBsACwADQAKAC4AaABsAGoAcwAtAGoAYQB2AGEAZABvAGMALAANAAoALgByAHUA
+YgB5ACAALgBoAGwAagBzAC0AcwB0AHIAaQBuAGcALAANAAoALgBoAGwAagBzAC0AZABlAGMAbwBy
+AGEAdABvAHIALAANAAoALgBoAGwAagBzAC0AZgBpAGwAdABlAHIAIAAuAGgAbABqAHMALQBhAHIA
+ZwB1AG0AZQBuAHQALAANAAoALgBoAGwAagBzAC0AbABvAGMAYQBsAHYAYQByAHMALAANAAoALgBo
+AGwAagBzAC0AYQByAHIAYQB5ACwADQAKAC4AaABsAGoAcwAtAGEAdAB0AHIAXwBzAGUAbABlAGMA
+dABvAHIALAANAAoALgBoAGwAagBzAC0AaQBtAHAAbwByAHQAYQBuAHQALAANAAoALgBoAGwAagBz
+AC0AcABzAGUAdQBkAG8ALAANAAoALgBoAGwAagBzAC0AcABpACwADQAKAC4AaABhAG0AbAAgAC4A
+aABsAGoAcwAtAGIAdQBsAGwAZQB0ACwADQAKAC4AaABsAGoAcwAtAGQAbwBjAHQAeQBwAGUALAAN
+AAoALgBoAGwAagBzAC0AZABlAGwAZQB0AGkAbwBuACwADQAKAC4AaABsAGoAcwAtAGUAbgB2AHYA
+YQByACwADQAKAC4AaABsAGoAcwAtAHMAaABlAGIAYQBuAGcALAANAAoALgBhAHAAYQBjAGgAZQAg
+AC4AaABsAGoAcwAtAHMAcQBiAHIAYQBjAGsAZQB0ACwADQAKAC4AbgBnAGkAbgB4ACAALgBoAGwA
+agBzAC0AYgB1AGkAbAB0AF8AaQBuACwADQAKAC4AdABlAHgAIAAuAGgAbABqAHMALQBmAG8AcgBt
+AHUAbABhACwADQAKAC4AZQByAGwAYQBuAGcAXwByAGUAcABsACAALgBoAGwAagBzAC0AcgBlAHMA
+ZQByAHYAZQBkACwADQAKAC4AaABsAGoAcwAtAHAAcgBvAG0AcAB0ACwADQAKAC4AYQBzAGMAaQBp
+AGQAbwBjACAALgBoAGwAagBzAC0AbABpAG4AawBfAGwAYQBiAGUAbAAsAA0ACgAuAG0AYQByAGsA
+ZABvAHcAbgAgAC4AaABsAGoAcwAtAGwAaQBuAGsAXwBsAGEAYgBlAGwALAANAAoALgB2AGgAZABs
+ACAALgBoAGwAagBzAC0AYQB0AHQAcgBpAGIAdQB0AGUALAANAAoALgBjAGwAbwBqAHUAcgBlACAA
+LgBoAGwAagBzAC0AYQB0AHQAcgBpAGIAdQB0AGUALAANAAoALgBhAHMAYwBpAGkAZABvAGMAIAAu
+AGgAbABqAHMALQBhAHQAdAByAGkAYgB1AHQAZQAsAA0ACgAuAGwAYQBzAHMAbwAgAC4AaABsAGoA
+cwAtAGEAdAB0AHIAaQBiAHUAdABlACwADQAKAC4AYwBvAGYAZgBlAGUAcwBjAHIAaQBwAHQAIAAu
+AGgAbABqAHMALQBwAHIAbwBwAGUAcgB0AHkALAANAAoALgBoAGwAagBzAC0AcABoAG8AbgB5ACAA
+ewANAAoAIAAgAGMAbwBsAG8AcgA6ACAAIwA4ADgARgANAAoAfQANAAoADQAKAC4AaABsAGoAcwAt
+AGsAZQB5AHcAbwByAGQALAANAAoALgBoAGwAagBzAC0AaQBkACwADQAKAC4AaABsAGoAcwAtAHQA
+aQB0AGwAZQAsAA0ACgAuAGgAbABqAHMALQBiAHUAaQBsAHQAXwBpAG4ALAANAAoALgBoAGwAagBz
+AC0AYQBnAGcAcgBlAGcAYQB0AGUALAANAAoALgBjAHMAcwAgAC4AaABsAGoAcwAtAHQAYQBnACwA
+DQAKAC4AaABsAGoAcwAtAGoAYQB2AGEAZABvAGMAdABhAGcALAANAAoALgBoAGwAagBzAC0AcABo
+AHAAZABvAGMALAANAAoALgBoAGwAagBzAC0AeQBhAHIAZABvAGMAdABhAGcALAANAAoALgBzAG0A
+YQBsAGwAdABhAGwAawAgAC4AaABsAGoAcwAtAGMAbABhAHMAcwAsAA0ACgAuAGgAbABqAHMALQB3
+AGkAbgB1AHQAaQBsAHMALAANAAoALgBiAGEAcwBoACAALgBoAGwAagBzAC0AdgBhAHIAaQBhAGIA
+bABlACwADQAKAC4AYQBwAGEAYwBoAGUAIAAuAGgAbABqAHMALQB0AGEAZwAsAA0ACgAuAGcAbwAg
+AC4AaABsAGoAcwAtAHQAeQBwAGUAbgBhAG0AZQAsAA0ACgAuAHQAZQB4ACAALgBoAGwAagBzAC0A
+YwBvAG0AbQBhAG4AZAAsAA0ACgAuAGEAcwBjAGkAaQBkAG8AYwAgAC4AaABsAGoAcwAtAHMAdABy
+AG8AbgBnACwADQAKAC4AbQBhAHIAawBkAG8AdwBuACAALgBoAGwAagBzAC0AcwB0AHIAbwBuAGcA
+LAANAAoALgBoAGwAagBzAC0AcgBlAHEAdQBlAHMAdAAsAA0ACgAuAGgAbABqAHMALQBzAHQAYQB0
+AHUAcwAgAHsADQAKACAAIABmAG8AbgB0AC0AdwBlAGkAZwBoAHQAOgAgAGIAbwBsAGQAOwANAAoA
+fQANAAoADQAKAC4AYQBzAGMAaQBpAGQAbwBjACAALgBoAGwAagBzAC0AZQBtAHAAaABhAHMAaQBz
+ACwADQAKAC4AbQBhAHIAawBkAG8AdwBuACAALgBoAGwAagBzAC0AZQBtAHAAaABhAHMAaQBzACAA
+ewANAAoAIAAgAGYAbwBuAHQALQBzAHQAeQBsAGUAOgAgAGkAdABhAGwAaQBjADsADQAKAH0ADQAK
+AA0ACgAuAG4AZwBpAG4AeAAgAC4AaABsAGoAcwAtAGIAdQBpAGwAdABfAGkAbgAgAHsADQAKACAA
+IABmAG8AbgB0AC0AdwBlAGkAZwBoAHQAOgAgAG4AbwByAG0AYQBsADsADQAKAH0ADQAKAA0ACgAu
+AGMAbwBmAGYAZQBlAHMAYwByAGkAcAB0ACAALgBqAGEAdgBhAHMAYwByAGkAcAB0ACwADQAKAC4A
+agBhAHYAYQBzAGMAcgBpAHAAdAAgAC4AeABtAGwALAANAAoALgBsAGEAcwBzAG8AIAAuAG0AYQBy
+AGsAdQBwACwADQAKAC4AdABlAHgAIAAuAGgAbABqAHMALQBmAG8AcgBtAHUAbABhACwADQAKAC4A
+eABtAGwAIAAuAGoAYQB2AGEAcwBjAHIAaQBwAHQALAANAAoALgB4AG0AbAAgAC4AdgBiAHMAYwBy
+AGkAcAB0ACwADQAKAC4AeABtAGwAIAAuAGMAcwBzACwADQAKAC4AeABtAGwAIAAuAGgAbABqAHMA
+LQBjAGQAYQB0AGEAIAB7AA0ACgAgACAAbwBwAGEAYwBpAHQAeQA6ACAAMAAuADUAOwANAAoAfQAN
+AAoADQAKAHAAcgBlACAAewANAAoAIAAgAGYAbwBuAHQALQBzAGkAegBlADoAIAAxADMAcAB4ADsA
+DQAKAH0ADQAKAA0ACgBwAHIAZQAsACAAYwBvAGQAZQAgAHsADQAKACAAIABmAG8AbgB0AC0AZgBh
+AG0AaQBsAHkAOgAgAEMAbwBuAHMAbwBsAGEAcwAsACAAIgBMAGkAYgBlAHIAYQB0AGkAbwBuACAA
+TQBvAG4AbwAiACwAIABNAGUAbgBsAG8ALAAgAEMAbwB1AHIAaQBlAHIALAAgAG0AbwBuAG8AcwBw
+AGEAYwBlADsADQAKACAAIAB3AG8AcgBkAC0AdwByAGEAcAA6ACAAYgByAGUAYQBrAC0AdwBvAHIA
+ZAA7AA0ACgB9AA0ACgANAAoALgBwAGwAbgAgAHsADQAKACAAIABjAG8AbABvAHIAOgAgACMANAA4
+ADQAOAA0AEMAOwAgAH0ADQAKAA0ACgAuAHMAdAByACAAewANAAoAIAAgAGMAbwBsAG8AcgA6ACAA
+IwBEAEQAMQAxADQANAA7ACAAfQANAAoADQAKAC4AawB3AGQAIAB7AA0ACgAgACAAYwBvAGwAbwBy
+ADoAIAAjADEARQAzADQANwBCADsAIAB9AA0ACgANAAoALgBjAG8AbQAgAHsADQAKACAAIABjAG8A
+bABvAHIAOgAgACMAOQAzAEEAMQBBADEAOwAgAH0ADQAKAA0ACgAuAHQAeQBwACAAewANAAoAIAAg
+AGMAbwBsAG8AcgA6ACAAdABlAGEAbAA7ACAAfQANAAoADQAKAC4AbABpAHQAIAB7AA0ACgAgACAA
+YwBvAGwAbwByADoAIAAjADEAOQA1AEYAOQAxADsAIAB9AA0ACgANAAoALgBwAHUAbgAgAHsADQAK
+ACAAIABjAG8AbABvAHIAOgAgACMAOQAzAEEAMQBBADEAOwAgAH0ADQAKAA0ACgAuAG8AcABuACAA
+ewANAAoAIAAgAGMAbwBsAG8AcgA6ACAAIwA5ADMAQQAxAEEAMQA7ACAAfQANAAoADQAKAC4AYwBs
+AG8AIAB7AA0ACgAgACAAYwBvAGwAbwByADoAIAAjADkAMwBBADEAQQAxADsAIAB9AA0ACgANAAoA
+LgB0AGEAZwAgAHsADQAKACAAIABjAG8AbABvAHIAOgAgACMAMAAwADgAOwAgAH0ADQAKAA0ACgAu
+AGEAdABuACAAewANAAoAIAAgAGMAbwBsAG8AcgA6ACAAdABlAGEAbAA7ACAAfQANAAoADQAKAC4A
+YQB0AHYAIAB7AA0ACgAgACAAYwBvAGwAbwByADoAIAAjAEQARAAxADEANAA0ADsAIAB9AA0ACgAN
+AAoALgBkAGUAYwAgAHsADQAKACAAIABjAG8AbABvAHIAOgAgAHQAZQBhAGwAOwAgAH0ADQAKAA0A
+CgAuAHYAYQByACAAewANAAoAIAAgAGMAbwBsAG8AcgA6ACAAdABlAGEAbAA7ACAAfQANAAoADQAK
+AC4AZgB1AG4AIAB7AA0ACgAgACAAYwBvAGwAbwByADoAIAAjAEQAQwAzADIAMgBGADsAIAB9AA0A
+CgANAAoADQAKAHAAcgBlAC4AcAByAGUAdAB0AHkAcAByAGkAbgB0ACAAewANAAoAIAAgAGIAYQBj
+AGsAZwByAG8AdQBuAGQALQBjAG8AbABvAHIAOgAgACMARgA3AEYANwBGADkAOwANAAoAIAAgAHAA
+YQBkAGQAaQBuAGcAOgAgADAAcAB4ADsADQAKACAAIABiAG8AcgBkAGUAcgA6ACAAMQBwAHgAIABz
+AG8AbABpAGQAIAAjAEUAMQBFADEARQA4ADsADQAKACAAIAB0AGEAYgAtAHMAaQB6AGUAOgAgADQA
+OwAgAH0ADQAKAA0ACgBwAHIAZQAuAHAAcgBlAHQAdAB5AHAAcgBpAG4AdAAuAGwAaQBuAGUAbgB1
+AG0AcwAgAHsADQAKACAAIABvAHYAZQByAGYAbABvAHcAOgAgAGEAdQB0AG8AOwANAAoAIAAgAC0A
+dwBlAGIAawBpAHQALQBvAHYAZQByAGYAbABvAHcALQBzAGMAcgBvAGwAbABpAG4AZwA6ACAAdABv
+AHUAYwBoADsADQAKAH0ADQAKAA0ACgANAAoAcAByAGUALgBwAHIAZQB0AHQAeQBwAHIAaQBuAHQA
+LgBsAGkAbgBlAG4AdQBtAHMAIABvAGwALgBsAGkAbgBlAG4AdQBtAHMAIAB7AA0ACgAgACAAYgBv
+AHgALQBzAGgAYQBkAG8AdwA6ACAANAAwAHAAeAAgADAAIAAwACAAIwBGAEIARgBCAEYAQwAgAGkA
+bgBzAGUAdAAsACAANAAxAHAAeAAgADAAIAAwACAAIwBFAEMARQBDAEYAMAAgAGkAbgBzAGUAdAA7
+AA0ACgAgACAAYwBvAGwAbwByADoAIAAjADEARQAzADQANwBCADsADQAKACAAIABwAGEAZABkAGkA
+bgBnADoAIAAxADAAcAB4ACAAMQAwAHAAeAAgADEAMABwAHgAIAA0ADAAcAB4ACAAIQBpAG0AcABv
+AHIAdABhAG4AdAA7AA0ACgAgACAAbQBhAHIAZwBpAG4ALQB0AG8AcAA6ACAAMAA7AA0ACgAgACAA
+bQBhAHIAZwBpAG4ALQBiAG8AdAB0AG8AbQA6ACAAMAA7AA0ACgB9AA0ACgANAAoAcAByAGUALgBw
+AHIAZQB0AHQAeQBwAHIAaQBuAHQALgBsAGkAbgBlAG4AdQBtAHMAIABvAGwALgBsAGkAbgBlAG4A
+dQBtAHMAIABsAGkAIAB7AA0ACgAgACAAYwBvAGwAbwByADoAIAAjAEIARQBCAEUAQwA1ADsADQAK
+ACAAIABsAGkAbgBlAC0AaABlAGkAZwBoAHQAOgAgADEAOABwAHgAOwANAAoAIAAgAHAAYQBkAGQA
+aQBuAGcALQBsAGUAZgB0ADoAIAAxADIAcAB4ACAAIQBpAG0AcABvAHIAdABhAG4AdAA7AA0ACgB9
+AA0ACgANAAoAcAByAGUALgBwAHIAZQB0AHQAeQBwAHIAaQBuAHQALgBsAGkAbgBlAG4AdQBtAHMA
+IABvAGwALgBsAGkAbgBlAG4AdQBtAHMAIABsAGkALgBMADAALAANAAoAcAByAGUALgBwAHIAZQB0
+AHQAeQBwAHIAaQBuAHQALgBsAGkAbgBlAG4AdQBtAHMAIABvAGwALgBsAGkAbgBlAG4AdQBtAHMA
+IABsAGkALgBMADEALAANAAoAcAByAGUALgBwAHIAZQB0AHQAeQBwAHIAaQBuAHQALgBsAGkAbgBl
+AG4AdQBtAHMAIABvAGwALgBsAGkAbgBlAG4AdQBtAHMAIABsAGkALgBMADIALAANAAoAcAByAGUA
+LgBwAHIAZQB0AHQAeQBwAHIAaQBuAHQALgBsAGkAbgBlAG4AdQBtAHMAIABvAGwALgBsAGkAbgBl
+AG4AdQBtAHMAIABsAGkALgBMADMALAANAAoAcAByAGUALgBwAHIAZQB0AHQAeQBwAHIAaQBuAHQA
+LgBsAGkAbgBlAG4AdQBtAHMAIABvAGwALgBsAGkAbgBlAG4AdQBtAHMAIABsAGkALgBMADQALAAN
+AAoAcAByAGUALgBwAHIAZQB0AHQAeQBwAHIAaQBuAHQALgBsAGkAbgBlAG4AdQBtAHMAIABvAGwA
+LgBsAGkAbgBlAG4AdQBtAHMAIABsAGkALgBMADUALAANAAoAcAByAGUALgBwAHIAZQB0AHQAeQBw
+AHIAaQBuAHQALgBsAGkAbgBlAG4AdQBtAHMAIABvAGwALgBsAGkAbgBlAG4AdQBtAHMAIABsAGkA
+LgBMADYALAANAAoAcAByAGUALgBwAHIAZQB0AHQAeQBwAHIAaQBuAHQALgBsAGkAbgBlAG4AdQBt
+AHMAIABvAGwALgBsAGkAbgBlAG4AdQBtAHMAIABsAGkALgBMADcALAANAAoAcAByAGUALgBwAHIA
+ZQB0AHQAeQBwAHIAaQBuAHQALgBsAGkAbgBlAG4AdQBtAHMAIABvAGwALgBsAGkAbgBlAG4AdQBt
+AHMAIABsAGkALgBMADgALAANAAoAcAByAGUALgBwAHIAZQB0AHQAeQBwAHIAaQBuAHQALgBsAGkA
+bgBlAG4AdQBtAHMAIABvAGwALgBsAGkAbgBlAG4AdQBtAHMAIABsAGkALgBMADkAIAB7AA0ACgAg
+ACAAbABpAHMAdAAtAHMAdAB5AGwAZQAtAHQAeQBwAGUAOgAgAGQAZQBjAGkAbQBhAGwAIAAhAGkA
+bQBwAG8AcgB0AGEAbgB0ADsADQAKAH0ADQAKAA==
+
+------=_Next_Part_0062654013.467--
+
